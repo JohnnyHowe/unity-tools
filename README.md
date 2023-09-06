@@ -1,6 +1,6 @@
 # Extensions
 ## ImageSetAlpha
-Instead of having to cache the color of an image (or any other MaskableGraphic) to change the alpha like this.
+Instead of having to cache the color of a UI image (or any other MaskableGraphic) to change the alpha like this.
 ```
 Color c = image.color;
 c.a = newAlpha;
