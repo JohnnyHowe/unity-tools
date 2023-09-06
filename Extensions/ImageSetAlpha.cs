@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 namespace JonathonOH.Drifto.UI.Extensions
 {
-    public static class MaskableGraphicSetAlpha
+    public static class ImageSetAlpha
     {
         public static void SetAlpha(this MaskableGraphic graphic, float newAlpha)
         {
