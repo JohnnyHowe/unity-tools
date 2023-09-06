@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace JonathonOH.Drifto.UI.Extensions
+namespace JonathonOH.UnityExtensions
 {
     public static class ImageSetAlpha
     {
