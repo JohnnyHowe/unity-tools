@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace JonathonOH.UnityExtensions
+namespace JonathonOH.UnityTools
 {
     public static class GraphicSetAlpha
     {
