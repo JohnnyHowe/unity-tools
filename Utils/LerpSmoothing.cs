@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace JonathonOH.UnityTools
 {
     public static class LerpSmoothing
@@ -12,7 +14,7 @@ namespace JonathonOH.UnityTools
         /// <param name="decay">Start change speed of the curve. Should be between 0 and infinity.</param>
         /// <param name="deltaTime"></param>
         /// <returns></returns>
-        public float LerpSmooth(float a, float b, float decay, float deltaTime)
+        public static float LerpSmooth(float a, float b, float decay, float deltaTime)
         {
             return b + (a - b) * Mathf.Exp(-decay * deltaTime);
         }
